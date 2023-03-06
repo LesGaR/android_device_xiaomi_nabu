@@ -431,3 +431,8 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/nabu/nabu-vendor.mk)
+
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePkgs
+
