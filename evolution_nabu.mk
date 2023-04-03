@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Inherit some common aospOS stuff.
-$(call inherit-product, vendor/aosp/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/evolution/config/common_full_tablet_wifionly.mk)
 
 # Inherit some common AOSP stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -23,9 +23,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, device/xiaomi/nabu/device.mk)
 
 # Inherit Google Camera
-$(call inherit-product, vendor/xiaomi/miatoll-gcam/miatoll-gcam-vendor.mk)
+#$(call inherit-product, vendor/xiaomi/miatoll-gcam/miatoll-gcam-vendor.mk)
 
-PRODUCT_NAME := aosp_nabu
+PRODUCT_NAME := evolution_nabu
 PRODUCT_DEVICE := nabu
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi

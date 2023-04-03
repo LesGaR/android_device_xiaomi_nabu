@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_nabu.mk
+    $(LOCAL_DIR)/evolution_nabu.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_nabu-user \
-    aosp_nabu-userdebug \
-    aosp_nabu-eng
+    evolution_nabu-user \
+    evolution_nabu-userdebug \
+    evolution_nabu-eng
